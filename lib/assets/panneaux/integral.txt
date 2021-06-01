@@ -1,0 +1,60 @@
+=====================================================================
+              BIENVENUE DANS ANALYSES WITH VLC (AWV)
+              --------------------------------------
+
+Cette application permet de collecter et d’analyser des données de
+film, afin de produire leur analyse.
+
+Pour ouvrir le manuel PDF de l'application, jouer simplement en
+console :
+
+	#{'help'.as_console}
+
+  COLLECTE DES INFORMATIONS (ÉLÉMENTS)
+  ------------------------------------
+
+  La collecte de éléments du films (scènes, informations, éléments
+  divers) se fait avec l'aide de l'application VLC.
+  Pour analyser un film en particulier, il suffit de l'ouvrir et de
+  le lancer dans VLC pour qu'il soit pris en film courant.
+
+  Pour un confort de relève, on peut ouvrir deux fenêtres avec l'ap-
+  plication :
+  - la première permet de relever les éléments proprement dit
+  - la seconde permet de naviguer dans la vidéo (pour revoir des 
+  éléments, avancer ou reculer)
+
+  Note : une troisième fenêtre peut aussi être ouverte, juste sous la
+  vidéo, en lançant la commande #{'follow'.as_console} qui permettra
+  de suivre la vidéo en affichant les éléments déjà collectés.
+
+  Les commandes principales sont :
+
+  Presser simplement la touche ENTRÉE « à vide » permet de jouer ou
+  d'arrêter la vidéo.
+
+  #{'q[uit]'.as_console}
+  # permet de quitter l'application
+
+  #{'s'.as_console}
+  # permet de créer une scène au point où la commande a été activée
+
+  #{'s-'.as_console}
+  # crée une scène au temps où la commande a été activée, en arrêtant
+  # la vidéo.
+
+  Note : un tiret placé au bout du premier mot — appelé aussi 
+  "commande" — permet toujours d'arrêter la vidéo.
+
+ ANALYSE DU FILM
+ ---------------
+
+  Après la collecte, de nombreux outils permettent de :
+    * sortir un paradigme de Field augmenté du film
+    * sortir un séquencier
+    * sortir des éléments statistiques divers
+    * établir des relations entre les éléments
+
+  Pour le détail, voir dans la section "Analyse du film" du manuel.
+
+=====================================================================

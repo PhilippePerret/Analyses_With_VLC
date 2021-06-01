@@ -1,0 +1,4 @@
+GEL init_state
+DU 2021-05-14 10:04:54 +0200
+
+État initial de l'application, avant le début des tests.

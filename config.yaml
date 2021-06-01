@@ -1,0 +1,12 @@
+---
+# 
+# Éditeur à utiliser pour éditer les fichier YAML
+# 
+:yaml_editor: Sublime Text
+#
+# Application qui sera utilisée pour ouvrir le dossier de
+# toute l'analyse du film
+# 
+:app_editing: Sublime Text
+# 
+# 

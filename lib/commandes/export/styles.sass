@@ -1,0 +1,45 @@
+body
+	font-size: 13pt
+	width: 17cm
+
+div.film-element
+	font-weight: normal
+	span.element-type
+		// 	font-variant n'est pas traité par la transformation en PDF
+		// font-variant: all-small-caps
+		font-size: 9.1pt
+		color: #555555
+		font-style: italic
+		&:after 
+			content: " : "
+	span.horloge
+		margin-right: 1em
+	
+div.scene
+	clear: both
+	margin-top: 4px
+	padding-top: 4px
+	border-top: 1px solid #CCCCCC
+	margin-left: 40px
+
+	span.scene-number
+		display: inline-block
+		margin-left: -40px
+		width: 40px
+
+	div.items
+		margin-left: 1em
+
+// Pour toutes les horloges
+.horloge
+	font-family: Courrier, Monospace
+	font-size: 9.2pt
+
+// Seulement l'horloge des scènes
+// voir span.horloge plus haut pour les éléments
+div.horloge
+	padding: 2px 12px
+	background-color: black
+	color: white
+	float: right
+	opacity: 0.5
